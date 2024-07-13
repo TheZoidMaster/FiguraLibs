@@ -32,7 +32,7 @@ local chain = ZoidsIK.Chain({
 })
 ```
 > [!IMPORTANT]  
-> in the model, the chain should be created pointing straight up or straight down, pointing in any another direction will most likely not work. Each segment in the chain should have its pivot centered.
+> In the model, the chain should be created pointing straight up or straight down, pointing in any other direction will most likely not work. Each segment in the chain should have its pivot centered.
 
 ## Variables
 Chains have 3 variables that can be modified:
@@ -70,5 +70,7 @@ local chain = ik.Chain({
 function events.render()
     chain:solve(vectors.vec3(0, 0, 0), vectors.vec3(0, 0, 0), 5)
 ```
+> [!TIP]  
+> Modelparts added to a chain will be moved to `models.ik_chain`, so make sure to use that when referencing them after adding them to the chain.
 ## Avatar Example:
 Download [Example.zip](https://github.com/TheZoidMaster/FiguraLibs/blob/main/ZoidsIK/Example.zip) and put it in your avatar folder, then equip the avatar and place your playerhead. It will create an IK chain that follows the nearest entity.

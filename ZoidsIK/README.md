@@ -1,5 +1,5 @@
 # Zoid's IK
-A simple FABRIK implementation, designed for ease of use.
+A simple but powerful FABRIK implementation, designed for ease of use.
 
 Forgive me if I've made a mistake in the documentation or the code, this is my first Figura library.
 

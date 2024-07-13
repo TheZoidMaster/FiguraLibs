@@ -71,6 +71,6 @@ function events.render()
     chain:solve(vectors.vec3(0, 0, 0), vectors.vec3(0, 0, 0), 5)
 ```
 > [!TIP]  
-> Modelparts added to a chain will be moved to `models.ik_chain`, so make sure to use that when referencing them after adding them to the chain.
+> Modelparts added to a chain will be moved to `models.ik_chain`, so make sure to use that when referencing them after initializing the chain.
 ## Avatar Example:
 Download [Example.zip](https://github.com/TheZoidMaster/FiguraLibs/blob/main/ZoidsIK/Example.zip) and put it in your avatar folder, then equip the avatar and place your playerhead. It will create an IK chain that follows the nearest entity.

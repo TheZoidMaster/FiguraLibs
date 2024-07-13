@@ -31,6 +31,8 @@ local chain = ZoidsIK.Chain({
     lengths = {10, 7, 5}
 })
 ```
+> [!IMPORTANT]  
+> in the model, the chain should be created pointing straight up or straight down, pointing in any another direction will most likely not work. Each segment in the chain should have its pivot centered.
 
 ## Variables
 Chains have 3 variables that can be modified:

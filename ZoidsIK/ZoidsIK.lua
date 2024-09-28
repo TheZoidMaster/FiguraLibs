@@ -150,7 +150,6 @@ function IKChain:isInReach(pos)
         pos = self.target
     end
     local dist = (self.root - pos):length()
-    print(self.totalLength, dist * 16)
     if dist * 16 > self.totalLength + #self.lengths then
         return false
     end
